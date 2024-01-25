@@ -8,32 +8,37 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
-    <fieldset>
-      <legend>Name</legend>
-      <div>
-          <label>First Name: <input type="text" name="first_name_field" autocomplete="given-name"></label>
+  <div id="myform">
+    <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+      <fieldset>
+        <legend>Name</legend>
+        <div>
+            <label>First Name: <input type="text" name="first_name_field" autocomplete="given-name"></label>
+        </div>
+        <div>
+          <label>Last Name: <input type="text" name="last_name_field" autocomplete="family-name"></label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Contact Info</legend>
+        <div>
+          <label>E-mail Address: <input type="email" name="email_field"></label>
+        </div>
+        <div>
+          <label for="phone-num">Phone number: </label>
+          <input type="tel" name="phone_number_field" id="phone-num">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Date</legend>
+        <label for="date">Choose a date:</label>
+        <input type="datetime-local" name="date_field" id="date">
+      </fieldset>
+      <div id="submit-button">
+        <input type="submit" value="Submit">
       </div>
-      <div>
-        <label>Last Name: <input type="text" name="last_name_field" autocomplete="family-name"></label>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend>Contact Info</legend>
-      <div>
-        <label>E-mail Address: <input type="email" name="email_field"></label>
-      </div>
-      <div>
-        <label>Phone number: <input type="tel" name="phone_number_field"></label>
-      </div>
-    </fieldset>
-    <fieldset>
-      <legend>Date</legend>
-      <label for="date">Choose a date:</label>
-      <input type="datetime-local" name="date_field" id="date">
-    </fieldset>
-    <input type="submit" value="Submit">
-  </form>
+    </form>
+</div>
 
 </body>
 </html>

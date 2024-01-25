@@ -5,3 +5,62 @@ div {
 fieldset {
   margin: 0.4em;
 }
+
+legend {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+#myform {
+  margin: 0 1em 0 1em;
+  padding: 1em;
+  background-color: gainsboro;
+  width: 75%;
+}
+
+#submit-button {
+  text-align: center;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 499px)
+{
+  div {
+    margin: 0;
+  }
+  
+  fieldset {
+    
+  }
+
+  #myform {
+    width: 100%;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+  }
+
+  input {
+    display: block;
+    margin: 0.4em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.4em;
+  }
+
+  #submit-button {
+    margin-top: 0.4em;
+    margin-left: 0.5em;
+  }
+}
+
