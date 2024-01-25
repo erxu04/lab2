@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+<head>
+  <title>Lab 2 Form</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/meyersreset-and-normalize-form.css" />
+  <link rel="stylesheet" media="screen" href="css/screen.css" />
+</head>
+<body>
+  <h1>Lab 2 Form</h1>
+  <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+    <fieldset>
+      <legend>Name</legend>
+      <div>
+          <label>First Name: <input type="text" name="first_name_field" autocomplete="given-name"></label>
+      </div>
+      <div>
+        <label>Last Name: <input type="text" name="last_name_field" autocomplete="family-name"></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Contact Info</legend>
+      <div>
+        <label>E-mail Address: <input type="email" name="email_field"></label>
+      </div>
+      <div>
+        <label>Phone number: <input type="tel" name="phone_number_field"></label>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Date</legend>
+      <label for="date">Choose a date:</label>
+      <input type="datetime-local" name="date_field" id="date">
+    </fieldset>
+  </form>
+
+</body>
+</html>
