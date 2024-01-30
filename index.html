@@ -9,7 +9,7 @@
 </head>
 <body>
   <div id="myform">
-    <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+    <form action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" method="POST">
       <fieldset>
         <legend>Name</legend>
         <div>
@@ -26,13 +26,13 @@
         </div>
         <div>
           <label for="phone-num">Phone number: </label>
-          <input type="tel" name="phone_number_field" id="phone-num">
+          <input type="tel" name="phone_number_field" id="phone-num"> <!--explicitly declared-->
         </div>
       </fieldset>
       <fieldset>
         <legend>Date</legend>
         <label for="date">Choose a date:</label>
-        <input type="datetime-local" name="date_field" id="date">
+        <input type="datetime-local" name="date_field" id="date"> <!--explicitly declared-->
       </fieldset>
       <div id="submit-button">
         <input type="submit" value="Submit">
