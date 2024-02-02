@@ -1,3 +1,4 @@
+/*
 div {
   margin: 0.4em;
 }
@@ -60,4 +61,32 @@ textarea {
     margin-left: 0.5em;
   }
 }
+*/
 
+html {
+  font-size: 17px;
+  line-height: 1.2em;
+  margin: 10px;
+}
+
+h1 {
+  font-size: 2.618em;
+  line-height: 2.4em;
+}
+
+#myform {
+  padding: 1.2em 0;
+}
+
+#submit-button {
+  padding: 1.2em 0;
+}
+
+div {
+  margin: 1.2em 0;
+}
+
+legend {
+  font-size: 1.618em;
+  line-height: 1.2em;
+}
