@@ -63,6 +63,7 @@ textarea {
 }
 */
 
+/* phone screen */
 html {
   font-size: 17px;
   line-height: 1.2em;
@@ -89,4 +90,32 @@ div {
 legend {
   font-size: 1.618em;
   line-height: 1.2em;
+}
+
+/* tablet screen */
+@media screen and (min-width: 480px) {
+
+  html {
+    font-size: 1.618em; /* 27.5px value equivalent to calculate padding for textarea*/
+    margin: 16px;
+  }
+}
+
+/* desktop screen*/
+
+@media screen and (min-width: 990px) {
+
+  body {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  fieldset {
+    margin: 1.2em 0;
+  }
+
+  #myform {
+    margin: 0;
+  }
+
 }
