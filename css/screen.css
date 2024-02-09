@@ -96,7 +96,7 @@ legend {
 @media screen and (min-width: 480px) {
 
   html {
-    font-size: 1.618em; /* 27.5px value equivalent to calculate padding for textarea*/
+    /*font-size: 1.618em; /* 27.5px value equivalent to calculate padding for textarea*/
     margin: 16px;
   }
 }
@@ -106,12 +106,13 @@ legend {
 @media screen and (min-width: 990px) {
 
   body {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
   }
 
   fieldset {
     margin: 1.2em 0;
+    padding-left: 20px;
   }
 
   #myform {
