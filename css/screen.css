@@ -96,7 +96,7 @@ legend {
 @media screen and (min-width: 480px) {
 
   html {
-    /*font-size: 1.618em; /* 27.5px value equivalent to calculate padding for textarea*/
+    font-size: 1.618em; /* 27.5px value equivalent to calculate padding for textarea*/
     margin: 16px;
   }
 }
